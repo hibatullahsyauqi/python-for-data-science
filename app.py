@@ -1,4 +1,4 @@
-print('Hello World')
-print('o----')
-print(' ||||')
-print('*'*10)
+print('Patient\'s data')
+name=input('Name: ')
+age=int(input('Age: '))
+print('New patient named', name,'is', age,'years old')
