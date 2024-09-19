@@ -18,7 +18,16 @@ age=2024-birth_year
 print('You are', age, 'years old')
 '''
 
+'''
 print('Weight Converter lbs to kgs')
 weight_lbs=int(input('Insert your weight in lbs: '))
 weight_kgs=int(weight_lbs*2.20462)
 print('You weigh', weight_kgs, 'kgs')
+'''
+
+course='Python for Beginners'
+print(course.upper())
+print(course.lower())
+print(course==course.title())
+print(course.find('o'))
+print(course.replace('Beginners', 'Absolute Newbie'))
