@@ -25,9 +25,36 @@ weight_kgs=int(weight_lbs*2.20462)
 print('You weigh', weight_kgs, 'kgs')
 '''
 
+'''
 course='Python for Beginners'
 print(course.upper())
 print(course.lower())
 print(course==course.title())
 print(course.find('o'))
 print(course.replace('Beginners', 'Absolute Newbie'))
+'''
+'''
+#augmented operator
+x=10
+x=x+3
+print(x)
+x-=3
+print(x)
+'''
+
+'''
+#operator precedence
+x=10+3*2
+print(x)
+'''
+
+'''
+import math
+
+x=2.9
+print(math.ceil(x))
+print(math.floor(x)) 
+print(round(x))
+print(abs(-x))
+'''
+
