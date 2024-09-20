@@ -73,12 +73,12 @@ else:
 print('Enjoy your day')
 '''
 
-goodcredit=True
-price=1000000
-if goodcredit:
-    percent=10
-    dp=int(0.1*price)
+good=True
+p=1000000
+if good:
+    dpp=10
+    dp=int(0.1*p)
 else:
-    percent=20
-    dp=int(0.2*price)
-print(f'You need to put down {percent}% of ${price} = ${dp}')
+    dpp=20
+    dp=int(0.2*p)
+print(f'You need to put down {dpp}% of ${p} = ${dp}')
