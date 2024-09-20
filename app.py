@@ -58,3 +58,27 @@ print(round(x))
 print(abs(-x))
 '''
 
+'''
+is_hot=True
+is_cold=False
+
+if is_hot:
+    print('It\'s a hot day')
+    print('Drink plenty of water')
+elif is_cold:
+    print('It\'s a cold day')
+    print('Wear warm clothes')
+else:
+    print('It\'s a lovely day')
+print('Enjoy your day')
+'''
+
+goodcredit=True
+price=1000000
+if goodcredit:
+    percent=10
+    dp=int(0.1*price)
+else:
+    percent=20
+    dp=int(0.2*price)
+print(f'You need to put down {percent}% of ${price} = ${dp}')
